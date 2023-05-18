@@ -51,7 +51,7 @@
 #include "esp_mac.h"
 
 #include "esp_at.h"
-
+#define CONFIG_AT_WEB_SERVER_SUPPORT
 #ifdef CONFIG_AT_WEB_SERVER_SUPPORT
 #include "esp_http_server.h"
 // AT web can use fatfs to storge html or use embeded file to storge html.
